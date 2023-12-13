@@ -1,0 +1,93 @@
+header{
+    border-bottom: 1px solid #e5e5e5;
+}
+
+header nav .logo img {
+    padding-top: 10px;
+    width: 110px;
+}
+
+
+nav {
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: none;
+}
+
+.secure {
+    padding-right: 50px;
+}
+
+.secure img {
+    width: 28px;
+}
+
+.secure span {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Assistant', sans-serif;
+    letter-spacing: 3px;
+}
+
+.bag {
+    max-width: 400px;
+    margin: 9rem auto;
+    text-align: center;
+}
+
+.bag div img {
+    width: 150px;
+    margin: auto;
+    text-align: center;
+}
+
+.bag div h2 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 2px;
+    font-family: 'Assistant', sans-serif;
+}
+
+.bag div p {
+    font-size: 14px;
+    color: #7e818c;
+    font-family: 'Assistant', sans-serif;
+}
+
+.bag div button {
+    background-color: #fff;
+    padding: 10px 18px;
+    color: #ff3f6c;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 1px solid #ff3f6c;
+    font-family: 'Assistant', sans-serif;
+    letter-spacing: 2px;
+}
+
+@media (max-width:1167px) {
+
+    header nav .logo img {
+        width: 80px;
+    }
+    
+    nav{
+        padding: 0px 7px;
+    }
+    .secure{
+        padding-top: 10px;
+        padding-right: 10px;
+    }
+    .secure img{
+        width: 24px;
+    }
+    .bag div img {
+        width: 100px;
+    }
+}

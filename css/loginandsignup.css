@@ -1,0 +1,110 @@
+section {
+    height: 100vh;
+    background-color: rgb(255, 234, 238);
+}
+
+section .max-width {
+    max-width: 400px;
+    margin: 0px auto;
+    padding-top: 100px;
+    /* border: 1px solid red; */
+}
+
+section .max-width .login-img img {
+    width: 400px;
+    object-fit: cover;
+    max-inline-size: 100%;
+    block-size: auto;
+    /* aspect-ratio: 1/1; */
+}
+
+section .max-width form {
+    padding: 40px 35px;
+    background: #fff;
+    /* margin: auto; */
+}
+
+section .max-width form label {
+    color: #000000;
+    padding-bottom: 20px;
+}
+
+section .max-width form label strong {
+    font-size: 18px;
+    font-family: inherit;
+}
+
+/* section .max-width form input[type=text] {
+   
+
+    padding: 10px 20px;
+    font-size: 14px;
+    outline: none;
+    border: 1px solid rgb(215, 215, 215);
+} */
+
+section .max-width form .form-control {
+    outline: none;
+    border: none;
+    
+    padding: 13px 20px;
+    font-size: 14px;
+    outline: none;
+    border: 1px solid rgb(215, 215, 215);
+}
+
+section .max-width input[type=text]:focus {
+    outline: none;
+    border: 1px solid rgb(215, 215, 215);
+    box-shadow: none;
+}
+
+section .max-width form .btn {
+    /* width: 320px; */
+    /* margin: auto; */
+    padding: 10px 20px;
+    font-size: 13px;
+    font-family: inherit;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: rgb(246, 84, 111);
+    color: #fff;
+    border: none;
+    outline : none;
+    box-shadow: none;
+}
+
+section .max-width form .btn:hover {
+    background-color: rgb(246, 84, 111);
+    color: #fff;
+    box-shadow: none;
+}
+
+section .max-width form .btn:focus {
+    background-color: rgb(246, 84, 111);
+    color: #fff;
+    box-shadow: none;
+}
+
+section .max-width form p {
+    padding-top: 20px;
+    padding-left: 0px;
+    font-size: 12px;
+    color: #8c8c8c;
+    text-align: center;
+
+}
+
+section .max-width form p em {
+    font-style: normal;
+    color: rgb(246, 84, 111);
+    font-weight: 700;
+    font-family: inherit;
+}
+
+@media (max-width:1167px) {
+    section .max-width form {
+        padding: 40px 20px;
+        background: #fff;
+    }
+}

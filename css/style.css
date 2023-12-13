@@ -1,0 +1,185 @@
+.carousel {
+    padding-top: 80px;
+}
+
+.carousel img {
+    height: 300px;
+    object-fit: cover;
+}
+
+
+#shopbycategory {
+    background-color: #ffffff;
+    padding: 20px 0px 20px 0px;
+}
+
+#shopbycategory .max-width {
+    max-width: 1200px;
+    margin: auto;
+}
+
+#shopbycategory .max-width .col {
+    flex-wrap: wrap;
+}
+
+#shopbycategory .max-width h2 {
+    text-align: left;
+    padding: 10px 8px 4px 40px;
+    font-family: inherit;
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 24px;
+    /* margin-bottom: 24px; */
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+#shopbycategory .max-width img {
+    width: 200px;
+    height: 270px;
+    display: block;
+    margin: 20px auto;
+}
+
+#shopbycategory .max-img .max-width {
+    max-width: 1300px;
+    margin: auto;
+}
+
+#shopbycategory .max-img .max-width img {
+    margin-top: 50px;
+    width: 1200px;
+    height: 230px;
+}
+
+.medalbrand {
+    padding: 40px 10px 10px 10px;
+}
+
+.globalbrand {
+    padding: 20px 10px 10px 20px;
+}
+
+.globalbrand h2 {
+    text-align: left;
+    padding: 30px 8px 8px 40px;
+    font-family: inherit;
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 24px;
+    margin-bottom: 24px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    padding-bottom: 30px;
+}
+
+.medalbrand h2 {
+    text-align: left;
+    font-family: inherit;
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 24px;
+    margin-bottom: 24px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    padding-bottom: 30px;
+    padding-top: 40px;
+    padding-left: 60px;
+}
+
+.owl-carousel .item {
+    /* padding: 0px 0px; */
+    /* width: 250px; */
+    height: 325px;
+}
+
+.owl-carousel .item img{
+    width: 210px;
+}
+
+
+
+@media (max-width:448px) {
+    #shopbycategory .max-width img {
+        width: 120px;
+        height: 150px;
+        display: block;
+        margin: auto;
+    }
+}
+
+@media (max-width:1167px) {
+
+    .carousel {
+        padding-top: 50px;
+    }
+
+    .carousel img {
+        margin-top: 0px;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    #homepage .max-width .coupen h2 {
+        font-size: 19px;
+        color: #000;
+    }
+
+
+    #shopbycategory .max-width h2 {
+        font-size: 19px;
+        color: #000;
+        padding: 30px 8px 5px 18px;
+    }
+
+    .medalbrand {
+        padding: 40px 0px;
+    }
+
+    .medalbrand h2 {
+        font-size: 18px;
+        color: #000;
+        padding: 30px 8px 5px 10px;
+    }
+
+    .globalbrand{
+        padding: 0px 7px 10px 7px;
+    }
+
+    .globalbrand h2 {
+        font-size: 18px;
+        color: #000;
+        padding: 10px 8px 5px 10px;
+    }
+
+    #shopbycategory .max-img .max-width img {
+        max-inline-size: 100%;
+        block-size: auto;
+        aspect-ratio: 2/1;
+        object-fit: cover;
+    }
+
+    #shopbycategory .max-width .col {
+        flex-wrap: wrap;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #shopbycategory .max-width img {
+        width: 160px;
+        height: 190px;
+        display: block;
+        margin: 7px auto;
+    }
+
+    .owl-carousel .item {
+        padding: 0px 0px;
+        width: 250px;
+        height: 380px;
+    }
+    .owl-carousel .item img{
+        width: 240px;
+    }
+
+    /*  */
+}

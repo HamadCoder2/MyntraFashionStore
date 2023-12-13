@@ -1,0 +1,47 @@
+.login-section {
+    height: 500px;
+    margin-top: 100px;
+}
+
+.login-section img {
+    width: 150px;
+    display: block;
+    margin: auto;
+
+}
+.login-section .col  p{
+    text-align: center;
+    font-size: 17px;
+    font-family: inherit;
+    color: #a8a8a8;
+}
+.login-section .col  h2{
+    text-align: center;
+    font-size: 19px;
+    font-weight: 700;
+    font-family: inherit;
+}
+
+.login-section .col {
+    max-width: 400px;
+    margin: 120px auto;
+    background-color: rgb(255, 255, 255);
+    padding: 50px 20px;
+}
+.login-section .col .col-item3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.login-section .col .col-item3 button{
+    padding: 10px 50px;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    color: rgb(75, 75, 234);
+    margin-top: 40px;
+    font-weight: 700;
+    background-color: #fff;
+    border: 1px solid rgb(84, 84, 244);
+}

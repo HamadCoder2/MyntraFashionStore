@@ -1,0 +1,99 @@
+.otp-from-page {
+    background-color: rgb(250, 248, 248);
+    height: 100vh;
+}
+
+
+.otp-form {
+    max-width: 400px;
+    margin: auto;
+    border: 1px solid rgb(243, 243, 243);
+    height: auto;
+    padding: 30px 30px;
+    position: relative;
+    top: 120px;
+    background-color: #fff;
+
+}
+
+.otp-form img {
+    width: 65px;
+    padding-bottom: 5px;
+}
+
+form .input-field {
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+.input-field input {
+    height: 45px;
+    width: 48px;
+    border-radius: 5px;
+    outline: none;
+    text-align: center;
+    border: 1px solid rgb(181, 181, 181);
+    font-size: 1.125rem;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+.input-field input::-webkit-inner-spin-button,
+.input-field input::-webkit-outer-spin-button {
+    display: none;
+}
+
+form button {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 7px 25px;
+    background-color: rgb(255, 98, 124);
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 4px;
+}
+
+.otp-form p {
+    color: #7d7d7d;
+}
+
+.otp-form h3 {
+    font-size: 21px;
+    font-family: inherit;
+}
+
+.otp-form p {
+    /* text-transform: capitalize; */
+    font-family: inherit;
+}
+
+.otp-form .tomobile {
+    font-size: 13px;
+    color: #7d7d7d;
+}
+
+.otp-form .resend-otp {
+    margin-top: 10px;
+    color: #7d7d7d;
+    font-size: 14px;
+}
+
+.otp-form .resend-otp span {
+    font-weight: 700;
+    color: #000;
+}
+
+.otp-form .log-in-using-password {
+    padding-top: 10px;
+    color: #7d7d7d;
+    font-size: 14px;
+}
+.otp-form .log-in-using-password a{
+    text-decoration: none;
+    color: rgb(253, 132, 152);
+    font-weight: 600;
+}

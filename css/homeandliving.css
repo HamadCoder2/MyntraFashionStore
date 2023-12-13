@@ -1,0 +1,51 @@
+.container-fluid {
+    padding-top: 90px;
+}
+
+
+.container-fluid img {
+
+    display: block;
+    margin: auto;
+
+
+}
+.homeandliving{
+    padding: 0px;
+}
+
+.homeandliving h2 {
+    font-size: 25px;
+    color: #2c2c2c;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding-top: 60px;
+    padding-left: 90px;
+}
+
+.owl-carousel .item {
+    width: 270px;
+    height: 200px;
+}
+
+@media (max-width:1167px) {
+
+    .container-fluid {
+        padding-top: 50px;
+    }
+
+    .homeandliving h2 {
+        font-size: 16px;
+        padding-left: 10px;
+    }
+
+
+    .container-fluid img {
+        max-inline-size: 100%;
+        block-size: auto;
+        aspect-ratio: 2/1;
+        object-fit: cover;
+    }
+
+}
