@@ -8,21 +8,18 @@ The purpose of this project is to demonstrate the ability to create a responsive
 ## Features
 List the features implemented in this version. For example:
 - Home page with product listings
-- Product details page
 - Responsive design for various screen sizes
 
 ## Technologies Used
 - HTML
 - CSS
 - JavaScript
-- Bootstrap
+- Bootstrap 5
 
  ## Live Demo
 You can view a live demo of the project [here](https://myntra-fashion-store.vercel.app/).
 
 ## Screenshots
-Include some screenshots or GIFs of your project to give users a visual representation. For example:
-
-![Screenshot 1](img/myntra-img.png)
+![Screenshot 1]("img/myntra-img.png")
 
 
