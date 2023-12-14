@@ -20,6 +20,6 @@ List the features implemented in this version. For example:
 You can view a live demo of the project [here](https://myntra-fashion-store.vercel.app/).
 
 ## Screenshots
-![Screenshot 1](img/myntra-img.png)
+![Screenshot 1](/public/img/myntra-img.png)
 
 
